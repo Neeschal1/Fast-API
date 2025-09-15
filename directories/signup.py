@@ -18,4 +18,3 @@ async def signup(user: SignupUser):
         "password":user.password
     })
     return user_data
-    
